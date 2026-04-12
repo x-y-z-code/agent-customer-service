@@ -154,10 +154,10 @@ python -m pip install -r requirements.txt
 
 ### 1. 阿里云 API Key
 
-本项目使用阿里云通义千问大模型和 DashScope Embedding，需要配置系统环境变量：
+本项目使用阿里云通义千问大模型和 DashScope Embedding，在config/rag.yml配置API Key：
 
 ```bash
-OPENAI_API_KEY="your_open_api_key"
+chat_model_api_key="your_open_api_key"
 ```
 
 > 可在 [阿里云百炼平台](https://bailian.console.aliyun.com/) 获取 API Key。
@@ -209,8 +209,7 @@ chunk_overlap: 20       # 分块重叠长度
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/bamboo-moon/zhisaotong-Agent.git
-cd zhisaotong-Agent
+git clone https://github.com/x-y-z-code/agent-customer-service.git
 ```
 
 ### 2. 安装依赖
@@ -223,7 +222,7 @@ python -m pip install -r requirements.txt
 
 ```bash
 # 设置阿里云 DashScope API Key
-export DASHSCOPE_API_KEY="your_dashscope_api_key"
+chat_model_api_key="your_dashscope_api_key"
 
 # 在 config/agent.yml 中配置高德地图 API Key
 ```
