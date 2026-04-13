@@ -1,0 +1,3 @@
+chat_model_name: qwen3-max
+chat_model_api_key: sk-83be9b21dc5e491f81840ba1dc1e1e49
+embedding_model_name: text-embedding-v4
